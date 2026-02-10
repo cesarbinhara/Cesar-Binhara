@@ -3,54 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Portfólio | Seu Nome</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Cesar Binhara | Analista de Dados</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background"></div>
-    <div class="mouse-light"></div>
+    <div class="background-gradient"></div>
+    
+    <main class="hero-container">
+        <section class="hero-content">
+            <h1 class="title">Cesar Binhara</h1>
+            <h2 class="subtitle">Analista de Dados & BI</h2>
+            <p class="description">
+                Especialista em transformar dados brutos em decisões estratégicas. 
+                Focado em SQL, Python e automação de processos para negócios.
+            </p>
+            <a href="projetos.html" class="btn-primary">Ver Projetos</a>
+        </section>
 
-    <main class="app-container">
-        <aside class="sidebar">
-            <header class="profile-header">
-                <img src="assets/profile.jpg" alt="Foto" class="profile-img">
-                <h1>Seu Nome</h1>
-                <p class="role">Analista de Dados & BI</p>
-            </header>
-
-            <nav class="nav-menu">
-                <button onclick="switchTab('dashboard1')" class="nav-btn active">📊 Vendas (Looker)</button>
-                <button onclick="switchTab('dashboard2')" class="nav-btn">📈 Financeiro (PBI)</button>
-                <button onclick="switchTab('curriculo')" class="nav-btn">📄 Sobre / Currículo</button>
-            </nav>
-
-            <div class="sidebar-footer">
-                <div class="social-links">
-                    <a href="#" target="_blank">GitHub</a>
-                    <a href="#" target="_blank">LinkedIn</a>
-                </div>
-            </div>
-        </aside>
-
-        <section class="content-area">
-            <div id="dashboard1" class="tab-content active">
-                <iframe src="LINK_DO_SEU_LOOKER_STUDIO" frameborder="0" allowfullscreen></iframe>
-            </div>
-
-            <div id="dashboard2" class="tab-content">
-                <iframe src="LINK_DO_SEU_POWER_BI_EMBED" frameborder="0" allowfullscreen></iframe>
-            </div>
-
-            <div id="curriculo" class="tab-content">
-                <div class="resume-card">
-                    <h2>Resumo Profissional</h2>
-                    <p>Especialista em SQL, Python e ETL. Focado em transformar dados brutos em decisões inteligentes.</p>
-                    <h3>Habilidades</h3>
-                    <div class="skills-grid">
-                        <span>SQL</span> <span>Python</span> <span>DAX</span> <span>Looker</span>
-                    </div>
-                </div>
+        <section class="hero-image">
+            <div class="image-wrapper">
+                <img src="assets/profile.jpg" alt="Cesar Binhara">
             </div>
         </section>
     </main>
